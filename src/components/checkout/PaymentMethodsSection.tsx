@@ -95,6 +95,11 @@ const PaymentMethodsSection: React.FC<PaymentMethodsSectionProps> = ({
           <div className="border rounded-lg">
             <div className="flex items-start space-x-3 p-4 hover:bg-gray-50">
               <RadioGroupItem value="upi" id="upi" className="mt-1">
+  <div className="radio-wrapper">
+    <div className="radio-circle" />
+  </div>
+</RadioGroupItem>
+
                 <div className="radio-wrapper"><div className="radio-circle" /></div>
               </RadioGroupItem>
               <div className="flex-1">
@@ -131,6 +136,11 @@ const PaymentMethodsSection: React.FC<PaymentMethodsSectionProps> = ({
           <div className="border rounded-lg">
             <div className="flex items-start space-x-3 p-4 hover:bg-gray-50">
               <RadioGroupItem value="card" id="card" className="mt-1">
+  <div className="radio-wrapper">
+    <div className="radio-circle" />
+  </div>
+</RadioGroupItem>
+
                 <div className="radio-wrapper"><div className="radio-circle" /></div>
               </RadioGroupItem>
               <div className="flex-1">
@@ -184,7 +194,12 @@ const PaymentMethodsSection: React.FC<PaymentMethodsSectionProps> = ({
           {/* Net Banking */}
           <div className="border rounded-lg">
             <div className="flex items-start space-x-3 p-4 hover:bg-gray-50">
-              <RadioGroupItem value="netbanking" id="netbanking" className="mt-1">
+              <RadioGroupItem value="netbaking" id="netbanking" className="mt-1">
+  <div className="radio-wrapper">
+    <div className="radio-circle" />
+  </div>
+</RadioGroupItem>
+
                 <div className="radio-wrapper"><div className="radio-circle" /></div>
               </RadioGroupItem>
               <div className="flex-1">
